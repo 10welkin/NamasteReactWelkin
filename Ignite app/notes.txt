@@ -1,0 +1,42 @@
+Ignite App : 
+git setup
+npm
+npm init
+npm install -D parcel
+parcel others(webpack, vid which are bundlers too)
+package.json and package-lock.json
+^(minor) and ~(major) 
+node modules ( transitive dependencies )
+
+.gitignore created and added /node_modules
+npx parcel index.html (to host build app locally)
+
+using react using cdn is not good
+so, install using npm
+npm i react
+npm i react-dom
+
+type = "module" for APP.js
+
+parcel: HMR (hot module replacement)
+File watching algorithm - written in C++
+Catching = Faster Builds
+Image optimazation
+minification
+bundling
+compressing
+consistent hashing
+Code splitting
+Diffrential Bundling - to support older browsers
+Diagnostics
+Error Handling
+HTTPs
+Tree Shaking - remove unused code
+Diffrent dev and prod bundles
+
+.gitignore:
+/node_modules
+/dist
+.parcel-cache
+
+browserslist : you can make compatible to any version or any browser
