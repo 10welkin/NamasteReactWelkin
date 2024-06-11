@@ -40,3 +40,28 @@ Diffrent dev and prod bundles
 .parcel-cache
 
 browserslist : you can make compatible to any version or any browser
+
+
+JSX (transpiled before it reaches the JS engine) - Transpiling is done by parcel
+but not by itself instead parcel is a manager and Babel does transpiling.
+
+Babel : JSX transpiled into React.CreateElement
+
+JSX => React.CreateElement ==> ReactElement-JS Object ===> HTML
+  const heading =  (
+  <h1>HEllo</h1>
+  )
+  
+  root.render(heading)
+
+React Functional Component:
+  A function which returns piece of JSX.
+  
+  const HeadingComponent = () => (
+  <h1>HEllo</h1>
+  )
+  
+  root.render(<HeadingComponent />)
+
+Component composition : 
+ Rendering component within another component
